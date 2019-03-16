@@ -9,6 +9,7 @@ import { ProductsComponent } from './products/products.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { AdminProductsComponent } from './admin/admin-products/admin-products.component';
 import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.component';
+import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
     ProductsComponent,
     MyOrdersComponent,
     AdminProductsComponent,
-    AdminOrdersComponent
+    AdminOrdersComponent,
+    ShoppingCartComponent
   ],
   imports: [
     BrowserModule,

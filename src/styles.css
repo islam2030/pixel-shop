@@ -6,6 +6,10 @@ body {
     padding-top: 90px;
 }
 
+.dropdown-toggle::after {
+    vertical-align: middle
+}
+
 .navbar-dark .navbar-nav .nav-link {
     cursor: pointer;
 }
